@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp1.0;netcoreapp2.0;netstandard1.0;netstandard2.0;net45</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enricher\" />
+    <Folder Include="Consumer\" />
+    <Folder Include="Parser\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dagger.Model\Dagger.Model.csproj" />
+  </ItemGroup>
+
+</Project>
